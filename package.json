@@ -1,7 +1,7 @@
 {
-  "name": "passport-local",
+  "name": "passport-two-legged",
   "version": "1.0.0",
-  "description": "Local username and password authentication strategy for Passport.",
+  "description": "Passport two-legged auth.",
   "keywords": [
     "passport",
     "local",
@@ -12,16 +12,12 @@
     "password"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Eric Schiller",
+    "email": "ericschiller@gmail.com",
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jaredhanson/passport-local.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-local/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -32,7 +28,9 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "crypto-js": "^3.1.6",
+    "passport-strategy": "1.x.x",
+    "request": "2.74.0"
   },
   "devDependencies": {
     "mocha": "1.x.x",
@@ -41,8 +39,5 @@
   },
   "engines": {
     "node": ">= 0.4.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
   }
 }
