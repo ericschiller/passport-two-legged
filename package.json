@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-local.git"
+    "url": "git://github.com:ericschiller/passport-two-legged.git"
   },
   "license": "MIT",
   "licenses": [
