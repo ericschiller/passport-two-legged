@@ -1,6 +1,6 @@
 {
   "name": "passport-two-legged",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Passport two-legged auth.",
   "keywords": [
     "passport",
@@ -13,7 +13,7 @@
   ],
   "author": {
     "name": "Eric Schiller",
-    "email": "ericschiller@gmail.com",
+    "email": "ericschiller@gmail.com"
   },
   "repository": {
     "type": "git",
