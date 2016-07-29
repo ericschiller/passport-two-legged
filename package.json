@@ -1,6 +1,6 @@
 {
   "name": "passport-two-legged",
-  "version": "1.0.4",
+  "version": "1.1.5",
   "description": "Passport two-legged auth.",
   "keywords": [
     "passport",
